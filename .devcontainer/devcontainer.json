@@ -1,0 +1,13 @@
+{
+    "image": "mcr.microsoft.com/mssql/server:2022-latest",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-mssql.mssql"]
+        }
+    },
+    "forwardPorts": [1433],
+    "remoteEnv": {
+        "ACCEPT_EULA": "Y",
+        "SA_PASSWORD": "P@ssw0rd!"
+    }
+}
