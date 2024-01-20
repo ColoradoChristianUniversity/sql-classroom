@@ -23,8 +23,13 @@
 						"user": "sa",
 						"password": "P@ssw0rd",
 						"emptyPasswordInput": false,
-						"savePassword": false,
-						"profileName": "mssql-container"
+						"savePassword": true,
+						"profileName": "mssql-container",
+						"encrypt": "Mandatory",
+						"trustServerCertificate": true,
+						"connectTimeout": 15,
+						"commandTimeout": 30,
+						"applicationName": "vscode-mssql"
 					}
 				]
 			},
